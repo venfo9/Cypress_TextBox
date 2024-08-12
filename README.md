@@ -31,7 +31,7 @@ Cypress_TextBox/
 ├── cypress/
 │   ├── e2e/
 │   │   ├── functional.cy.js   # Test file for functional tests
-│   │   └── viewport.cy.js     # Test file for responsiveness across different viewports
+│   │   └── viewports.cy.js     # Test file for responsiveness across different viewports
 │   ├── fixtures/
 │   │   └── userData.json      # Sample user data for form input
 │   ├── support/
@@ -51,7 +51,7 @@ You can run the tests in the Cypress Test Runner:
     ```bash
     npx cypress open
     ```
-2. Select the test file you want to run (e.g., `responsive.spec.js`).
+2. Select the test file you want to run (e.g., `functional.spec.js`).
 
 Alternatively, you can run the tests in headless mode:
 
@@ -64,7 +64,7 @@ npx cypress run
 To run a specific test file:
 
 ```bash
-npx cypress run --spec "cypress/e2e/responsive.spec.js"
+npx cypress run --spec "cypress/e2e/functional.spec.js"
 ```
 
 ## Test Descriptions
@@ -81,9 +81,9 @@ The `functional.cy.js` file contains the main test suite that verifies the behav
 - **Long Data Handling**: Ensures that the form handles long input strings correctly.
 - **Special Characters**: Validates that the form accepts and displays special characters in the fields.
 
-### Responsive Tests (`viewport.cy.js`)
+### Responsive Tests (`viewports.cy.js`)
 
-The `viewport.cy.js` file contains tests that verify the responsiveness of the Text Box form across different screen sizes. The test scenarios include:
+The `viewports.cy.js` file contains tests that verify the responsiveness of the Text Box form across different screen sizes. The test scenarios include:
 
 - **Viewport Testing**: Checks the form’s layout and visibility on various devices, including Desktop (1280x800), Tablet (768x1024), and Mobile (375x667).
 - **Form Submission Across Viewports**: Ensures that the form submits data correctly and displays the output properly on each device.
