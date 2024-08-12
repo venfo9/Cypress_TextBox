@@ -4,7 +4,7 @@ import TextBoxPage from '../support/pages/TextBoxPage';
 // Import user data from a fixture file
 import { userData } from '../fixtures/userData';
 
-describe('The Home Page', () => {
+describe('Functional Tests For Text Box Page', () => {
     // Visit the Text Box page before each test
     beforeEach(() => {
         TextBoxPage.visit();
