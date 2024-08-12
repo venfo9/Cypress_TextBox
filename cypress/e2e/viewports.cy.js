@@ -11,7 +11,7 @@ const viewports = [
     { name: 'Mobile', width: 375, height: 667 }
 ];
 
-describe('Responsive Tests', () => {
+describe('Responsive Tests For Text Box Page', () => {
     // Before each test, visit the Text Box page
     beforeEach(() => {
         TextBoxPage.visit();
