@@ -1,7 +1,3 @@
-Here's a README template for your Cypress testing project:
-
----
-
 # Cypress Testing Project
 
 This repository contains a Cypress testing suite for automated testing of the forms on the [DemoQA](https://demoqa.com/text-box) website. The tests ensure that the form behaves as expected across different viewports, verifies form validation, and checks the correct display of input fields and outputs.
