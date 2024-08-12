@@ -37,6 +37,7 @@ Cypress_TextBox/
 │   ├── support/
 │   │   ├── pages/
 │   │   │   └── TextBoxPage.js # Page Object Model for the Text Box form
+│   │   ├── e2e.js             # Global configuration and behavior for Cypress
 │   │   └── commands.js        # Custom commands for Cypress
 │   └── cypress.config.js      # Cypress configuration file
 │
